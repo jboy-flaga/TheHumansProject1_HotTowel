@@ -1,0 +1,19 @@
+﻿<section>
+    <header>
+        <h2 class="page-title" data-bind="text: title"></h2>
+        <span data-bind="text: humans().length"></span>
+        <span>humans found</span>
+        <a href="#" data-bind="click: refresh">Refresh</a>
+    </header>
+    <section data-bind="foreach: humans">
+        <article class="span2" data-bind="click: $root.gotoDetails">
+            <div class="image">
+                <img data-bind="attr: { src: photoUrl }" class="img-polaroid" />
+            </div>
+            <address class="text-center">
+                <span data-bind="text: firstName"></span>
+                <span data-bind="text: lastName"></span>
+            </address>
+        </article>
+    </section>
+</section>

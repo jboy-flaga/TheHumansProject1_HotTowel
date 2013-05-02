@@ -1,0 +1,23 @@
+﻿
+/* #By Jboy*/
+
+article {
+    /*border: 1px solid red;*/
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+    article > div {
+        /*border: 1px solid blue;*/
+        height: 210px;
+    }
+
+        article > div > img {
+            max-height: 200px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+        article:hover{
+            cursor: pointer;
+        }
