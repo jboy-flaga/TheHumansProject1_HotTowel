@@ -9,3 +9,5 @@ To learn more about HotTowel go to http://www.johnpapa.net/hottowel/.
 To know more about Durandal go to the folowing pages:
 http://durandaljs.com/pages/get-started
 http://durandaljs.com/pages/videos/
+
+.
