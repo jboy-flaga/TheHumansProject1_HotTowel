@@ -6,7 +6,8 @@
 
     var Human = function (humanDto) {
         var s = "";
-        var photo = (humanDto.Photo.trim() === "") ? imageSettings.noPhotoImage : humanDto.Photo;
+    	var photo = (humanDto.Photo.trim() === "") ? imageSettings.noPhotoImage : humanDto.Photo;
+        //var photo = imageSettings.noPhotoImage;
         return {
             id: humanDto.Id,
             firstName: ko.observable(humanDto.FirstName),
